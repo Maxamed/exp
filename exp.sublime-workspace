@@ -1,0 +1,217 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 3708,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 387.0,
+		"selected_items":
+		[
+			[
+				"ins",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Library/WebServer/Documents/sites/exp/zeptos.min.js",
+		"/Users/dewalf/Desktop/EMAP/Hotel and flight + hotel deals on map – Search with Expedia.html",
+		"/Users/dewalf/Desktop/hero-email-template/stylesheets/email.css",
+		"/Users/dewalf/Desktop/hero-email-template/hero.html",
+		"/var/folders/k5/dxc9ycxs56d_plgfzb3bhdlc0000gn/T/sublime-sftp-browse-1381771006/flawlessmind/public_html/themes/default/article.php",
+		"/var/folders/k5/dxc9ycxs56d_plgfzb3bhdlc0000gn/T/sublime-sftp-browse-1381771030/flawlessmind/public_html/themes/default/posts.php",
+		"/var/folders/k5/dxc9ycxs56d_plgfzb3bhdlc0000gn/T/sublime-sftp-browse-1381770777/flawlessmind/public_html/anchor/views/posts/index.php",
+		"/var/folders/k5/dxc9ycxs56d_plgfzb3bhdlc0000gn/T/sublime-sftp-browse-1381770654/flawlessmind/public_html/anchor/models/post.php",
+		"/var/folders/k5/dxc9ycxs56d_plgfzb3bhdlc0000gn/T/sublime-sftp-browse-1381770244/flawlessmind/public_html/anchor/views/posts/index.php",
+		"/var/folders/k5/dxc9ycxs56d_plgfzb3bhdlc0000gn/T/sublime-sftp-browse-1381770429/flawlessmind/public_html/anchor/views/pages/index.php",
+		"/Users/dewalf/Library/Application Support/Sublime Text 3/Packages/User/sftp_servers/flawlessmind",
+		"/Library/WebServer/Documents/sites/comp1678/week3/myhobbies.html",
+		"/Library/WebServer/Documents/sites/comp1678/week3/mycountry.html",
+		"/Library/WebServer/Documents/sites/COMP/info.php"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"face",
+			"<section class=\"content\">",
+			"post-content"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3708,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								458,
+								458
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 551.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.sftp":
+	{
+		"height": 100.0
+	},
+	"project": "exp.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 261.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
