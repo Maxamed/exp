@@ -1,6 +1,22 @@
 <?php include 'includes/header.php'; ?>
 
+<script id="hotelCards" type="text/template">
 
+{{#HotelSummary}}
+<h5>{{name}}</h5>
+<p> </a></p>
+
+<div class="large-4 small-6 columns">
+  <img src="http://images.travelnow.com/{{thumbNailUrl}}">
+
+  <div class="panel">
+    <h5>Trip ADvisor: {{tripAdvisorRating}}</h5>
+    <h6 class="subheader">£cost</h6>
+  </div>
+</div>
+
+{{/HotelSummary}}
+</script>
 
 
         <div class="row">
@@ -14,61 +30,11 @@
     <!-- Thumbnails -->
  
         <div class="large-12 columns">
-          <div class="row">
+          <div class="row" id="hotelGrid">
  
-            <div class="large-4 small-6 columns">
-              <img src="http://placehold.it/1000x1000&text=Thumbnail">
  
-              <div class="panel">
-                <h5>Item Name</h5>
-                <h6 class="subheader">$000.00</h6>
-              </div>
-            </div>
- 
-            <div class="large-4 small-6 columns">
-              <img src="http://placehold.it/500x500&text=Thumbnail">
- 
-              <div class="panel">
-                <h5>Item Name</h5>
-                <h6 class="subheader">$000.00</h6>
-              </div>
-            </div>
- 
-            <div class="large-4 small-6 columns">
-              <img src="http://placehold.it/500x500&text=Thumbnail">
- 
-              <div class="panel">
-                <h5>Item Name</h5>
-                <h6 class="subheader">$000.00</h6>
-              </div>
-            </div>
- 
-            <div class="large-4 small-6 columns">
-              <img src="http://placehold.it/500x500&text=Thumbnail">
- 
-              <div class="panel">
-                <h5>Item Name</h5>
-                <h6 class="subheader">$000.00</h6>
-              </div>
-            </div>
- 
-            <div class="large-4 small-6 columns">
-              <img src="http://placehold.it/500x500&text=Thumbnail">
- 
-              <div class="panel">
-                <h5>Item Name</h5>
-                <h6 class="subheader">$000.00</h6>
-              </div>
-            </div>
- 
-            <div class="large-4 small-6 columns">
-              <img src="http://placehold.it/500x500&text=Thumbnail">
- 
-              <div class="panel">
-                <h5>Item Name</h5>
-                <h6 class="subheader">$000.00</h6>
-              </div>
-            </div>
+  
+
           </div>
  
     <!-- End Thumbnails -->
@@ -108,3 +74,16 @@
   </div>
 
 <?php include 'includes/footer.php'; ?>
+    <script type="text/javascript">  
+
+        exp.getHotels(exp.config.hotelListURL,"london","01/01/2014","01/10/2014");
+ 
+
+      //exp.getHotels(exp.config.hotelListURL,"seattle");
+     // exp.bookHotel(exp.config.hotelAvilURL,"266025","01/01/2014","01/10/2014");
+
+ 
+    </script>
+
+      </body>
+</html>
