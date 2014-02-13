@@ -43,7 +43,7 @@ var exp = {
 
       var template = $('#hotelCards').html();
       var html = Mustache.to_html(template, hotels);
-      $('#hotelGrid').html(html);
+      $('#columns').html(html);
 
 
     },

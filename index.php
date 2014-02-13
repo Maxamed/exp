@@ -76,10 +76,10 @@
 <?php include 'includes/footer.php'; ?>
     <script type="text/javascript">  
 
-        exp.getHotels(exp.config.hotelListURL,"london","01/01/2014","01/10/2014");
+        //exp.getHotels(exp.config.hotelListURL,"london","01/01/2014","01/10/2014");
  
 
-      //exp.getHotels(exp.config.hotelListURL,"seattle");
+      exp.getHotels(exp.config.hotelListURL,"seattle");
      // exp.bookHotel(exp.config.hotelAvilURL,"266025","01/01/2014","01/10/2014");
 
  
