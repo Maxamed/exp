@@ -3,15 +3,26 @@
 	{
 		"selected_items":
 		[
+			[
+				"ge",
+				"getHotels"
+			],
+			[
+				"get",
+				"getHotels"
+			],
+			[
+				"c",
+				"config"
+			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 3708,
+				"buffer_size": 0,
 				"line_ending": "Unix"
 			}
 		}
@@ -48,6 +59,14 @@
 	},
 	"file_history":
 	[
+		"/Library/WebServer/Documents/sites/exp/js/main.js",
+		"/Users/dewalf/Desktop/hero-email-template/Account-settings.html",
+		"/Users/dewalf/Desktop/hero-email-template/Account-settings-body-test.html",
+		"/Library/WebServer/Documents/sites/exp/gethotels.html",
+		"/Library/WebServer/Documents/sites/exp/js/basics.js",
+		"/Library/WebServer/Documents/sites/exp/index.html",
+		"/Library/WebServer/Documents/sites/exp/exp.sublime-workspace",
+		"/Library/WebServer/Documents/sites/exp/exp.sublime-project",
 		"/Library/WebServer/Documents/sites/exp/zeptos.min.js",
 		"/Users/dewalf/Desktop/EMAP/Hotel and flight + hotel deals on map – Search with Expedia.html",
 		"/Users/dewalf/Desktop/hero-email-template/stylesheets/email.css",
@@ -104,32 +123,27 @@
 			[
 				{
 					"buffer": 0,
-					"file": "index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3708,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								458,
-								458
+								0,
+								0
 							]
 						],
 						"settings":
 						{
 							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 551.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -206,7 +220,7 @@
 	{
 	},
 	"show_minimap": true,
-	"show_open_files": false,
+	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
 	"side_bar_width": 261.0,
