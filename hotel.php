@@ -16,9 +16,9 @@
          <h3>{{name}}</h3>
        <h5>Trip ADvisor: {{tripAdvisorRating}}</h5>
         <h4 class="subheader">£{{lowRate}}</h4>
-        <a href="#" class="button [radius round]" data-reveal-id="a{{hotelId}}">{{name}} >></a>
+        <a href="#" class="button [radius round]" data-reveal-id="{{hotelId}}">{{name}} >></a>
         
-        <div id="a{{hotelId}}" class="reveal-modal" data-reveal> 
+        <div id="{{hotelId}}" class="reveal-modal" data-reveal> 
             <p>{{{shortDescription}}}</p>
         </div>   
     </div> 
@@ -27,7 +27,8 @@
     </script>
 
   </head>
-  <body>  
+  <body> 
+      
   
       
  <div id="wrapper">
