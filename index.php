@@ -5,53 +5,78 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title></title>
     <link rel="stylesheet" href="css/foundation.min.css" />
-    <link rel="stylesheet" href="css/gpt.css" /> 
-   <script id="hotelCards" type="text/template">
+    <link rel="stylesheet" href="css/gpt.css" />  
+	
+	<style>
+		
 
-    {{#HotelSummary}}
- 
-
-    <div class="pin panel">
-      <img src="http://images.travelnow.com/{{thumbNailUrl}}">
-         <h3>{{name}}</h3>
-       <h5>Trip ADvisor: {{tripAdvisorRating}}</h5>
-        <h4 class="subheader">£{{lowRate}}</h4>
-        <a href="#" class="button [radius round]" data-reveal-id="a{{hotelId}}">{{name}} >></a>
-        
-        <div id="a{{hotelId}}" class="reveal-modal" data-reveal> 
-            <p>{{{shortDescription}}}</p>
-        </div>   
-    </div> 
-
-    {{/HotelSummary}}
-    </script>
-
+	</style>
   </head>
-  <body>  
+    
+  <body> 
+    <img src="img/hotel.jpg" class="bg">
+	<ul class="navi">
+      <li><a>Home</a></li>
+      <li><a>Inspiration</a></li>
+      <li><a>Deals</a></li>
+      <li><a>About</a></li>
+      <li><a>Contact</a></li>
+    </ul>
+	<div id="page-wrap">
+	
+ 
+        <form>
+
+                  <div class="row">
+				    <div class="large-3 medium-3 columns">
+				      <label>Leaving from</label>
+				      <input type="text" placeholder="London" />
+				    </div>
+				    <div class="large-3 medium-3 columns">
+				      <label>Going to</label>
+				      <input type="text" placeholder="Paris" />
+				    </div>
+				    <div class="large-3 medium-3 columns">
+				      <label>Leaving on</label>
+				      <input type="text" id="Fdatepicker" placeholder="12/09/2014" />
+				    </div>
+				    <div class="large-3 medium-3 columns">
+				      <label>Coming back</label>
+				      <input type="text" id="Tdatepicker"  placeholder="22/09/2014" />
+				    </div>	 
+                      
+				  </div>
+            
+        </form>
+        
+        
+        
+        
+        
+	</div>
   
-      
- <div id="wrapper">
-  <div id="columns">
-
-
-
-  </div>
-</div>
+  
     
     
-        <script src="js/vendor/jquery.min.js"></script>
-        <script src="js/foundation.min.js"></script>
-        <script src="js/vendor/mustache.js"></script>
-        <script src="js/main.js"></script>
-            <script type="text/javascript">  
- $(document).foundation();
-        //exp.getHotels(exp.config.hotelListURL,"london","01/01/2014","01/10/2014");
- 
-
-     exp.getHotels(exp.config.hotelListURL,"london");
-     // exp.bookHotel(exp.config.hotelAvilURL,"266025","01/01/2014","01/10/2014");
-
- 
-    </script>
+        <script src="js/vendor/jquery.min.js"></script>  
+        <script src="js/datepicker.js"></script>
+        <script type="text/javascript">   
+        var Fpicker = new Pikaday(
+        {
+            field : document.getElementById('Fdatepicker'), 
+            firstDay: 1,
+            minDate: new Date('2000-01-01'),
+            maxDate: new Date('2020-12-31'),
+            yearRange: [2000,2020]
+        });
+        var Tpicker = new Pikaday(
+        {
+            field : document.getElementById('Tdatepicker'), 
+            firstDay: 1,
+            minDate: new Date('2000-01-01'),
+            maxDate: new Date('2020-12-31'),
+            yearRange: [2000,2020]
+        });
+        </script>
   </body>
 </html>
